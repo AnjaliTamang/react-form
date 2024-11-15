@@ -15,7 +15,7 @@ export default function Form() {
       [name]: type === "checkbox" ? checked : value,
     }));
   }
-
+//npm build
   function handleSubmit(event) {
     event.preventDefault();
     if (formData.password === formData.confirmPassword) {
